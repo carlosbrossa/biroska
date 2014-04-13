@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333333"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#015488" >
+
+        <TextView
+            android:id="@+id/my_cards"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:clickable="true"
+            android:drawableTop="@drawable/card3"
+            android:onClick="myCards"
+            android:text="@string/myAlbum"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/repeated_cards"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/my_cards"
+            android:layout_marginRight="50dp"
+            android:clickable="true"
+            android:drawableTop="@drawable/card1"
+            android:onClick="repeatStick"
+            android:text="@string/repeatedCards"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dontHaveCards"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/my_cards"
+            android:layout_below="@+id/repeated_cards"
+            android:layout_marginTop="16dp"
+            android:clickable="true"
+            android:drawableTop="@drawable/card2"
+            android:onClick="selecionarOpcao"
+            android:text="@string/dontHaveCards"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/compare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/dontHaveCards"
+            android:layout_alignBottom="@+id/dontHaveCards"
+            android:layout_alignRight="@+id/repeated_cards"
+            android:clickable="true"
+            android:drawableTop="@drawable/card4"
+            android:onClick="selecionarOpcao"
+            android:text="@string/compareToMyFriends"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</LinearLayout>

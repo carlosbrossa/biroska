@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Biroska</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_friend">Adicionar Amigo</string>
+    <string name="tittle_add_friend">Informe o nome do seu amigo</string>
+    <string name="saudacao">O seu amiguinho viadinho foi adicionado :</string>
+    <string name="to_album">Ir para meu album</string>
+    
+    <!-- login -->
+    <string name="user">Usuário</string>
+    <string name="password">Senha</string>
+    <string name="login">Entrar</string>
+    <string name="error_login">Erro ao logar</string>
+    
+    <!-- album -->
+    <string name="myAlbum">Meu álbum</string>
+    <string name="myFriends">Adicionar amigos</string>
+    
+    <!-- friends -->
+    <string name="friendNotExist">Esse usuário não existe</string>
+    <string name="sucessAddFriend">Usuário adicionado com sucesso. - </string>
+    
+    <!-- cards -->
+    <string name="repeatedCards">Cartas repetidas</string>
+    <string name="dontHaveCards">Cartas que \n eu não tenho</string>
+    <string name="compareToMyFriends">Comparar</string>
+    <string name="myCards">Minhas figurinhas</string>
+    <string name="addStick">Adicionar</string>
+    <string name="addStickText">Entre com o número da figurinha</string>
+    <string name="addStickTextSucess">Figurinha adicionada com sucesso!</string>        
+    
+    
+    <string name="backAlbumMenu">Voltar para o menu</string>
+
+</resources>
