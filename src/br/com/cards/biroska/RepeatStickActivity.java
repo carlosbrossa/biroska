@@ -35,7 +35,7 @@ public class RepeatStickActivity extends Activity{
         	stringBuffer.append(String.valueOf(i));
 		}
         
-        this.resultRepeat.setText(array.toString());
+        this.resultRepeat.setText(stringBuffer.toString());
 
 
         
